@@ -2,8 +2,7 @@ package fizzbuzz_test
 
 import (
 	"testing"
-
-	"go-tdd/fizzbuzz"
+	"workplace/digital_academy_1/go-tdd/fizzbuzz"
 )
 
 func TestFizzBuzz(t *testing.T) {

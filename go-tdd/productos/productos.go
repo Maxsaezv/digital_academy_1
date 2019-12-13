@@ -15,3 +15,13 @@ func Findproductname(productos map[int32]*Product, id int32) string {
 	return productos[id].Name
 
 }
+
+//Findproductprice funcion que busca si existe precio de un producto
+func Findproductprice(productos map[int32]*Product, id int32) float32 {
+	if productos[id] == nil {
+		return -1
+	}
+
+	return productos[id].Price
+
+}
