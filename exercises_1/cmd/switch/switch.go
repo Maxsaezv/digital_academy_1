@@ -5,10 +5,7 @@ import (
 	"strconv"
 )
 
-const (
-	fala  string = "Fala"
-	bella string = "Bella"
-)
+const fala, bella = "Fala", "Bella"
 
 func falabella(in int) string {
 	switch {
